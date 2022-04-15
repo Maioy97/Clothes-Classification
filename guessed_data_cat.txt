@@ -1,0 +1,15 @@
+0,blouse
+1,cloak
+2,coat
+3,jacket
+4,dress
+5,t-shirt
+6,workclothes
+7,shirts
+8,summer_dresses
+9,suits
+10,sweater
+11,printed_t-shirt
+12,undergarment
+13,army
+14,vest
