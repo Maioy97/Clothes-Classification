@@ -5,6 +5,7 @@ the dataset used can be found at [kaggel: clothes types dataset](https://www.kag
 Note: 
 text labels were not included in the dataset docs
 only the labeling format was <row_index>_<classnumber>.jpg
+to download the dataset into the colab note you'll need to get a kaggle api key and a kaggle.json file from your kaggle account 
 
 steps taken :
 1. finding a dataset
@@ -30,6 +31,5 @@ resizing data to fit the input shape
 
 difficulties faced 
 with the dataset's total size being less than 700mbs the first approach used was to load the whole dataset 
-but the dataset once loaded into ram took up 6GBs which limited the avalable memory for the training 
-the approach of loading the data had to then be changed to using a genrator function and using 
-fit_generator instead of fit 
+but the dataset once loaded into ram took up 6GBs which limited the available memory for the training 
+the approach of loading the data had to then be changed to using a generator function
