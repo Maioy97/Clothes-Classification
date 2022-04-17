@@ -2,6 +2,11 @@
 small exercise to classify cloths images by types
 the dataset used can be found at [kaggel: clothes types dataset](https://www.kaggle.com/datasets/salil007/caavo)
 
+Main code can  be found at clothes_classification.ipynb 
+the second notebook "clothes_classification_using_limited_images_per_class.ipynb" is an edit to limit the number of samples given to each class when training 
+I made this edit to make a faster training prototype of the model 
+
+
 Note: 
 text labels were not included in the dataset docs
 only the labeling format was row-index_class-number.jpg
